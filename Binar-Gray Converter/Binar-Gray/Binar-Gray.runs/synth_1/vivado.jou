@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Jan 19 20:33:17 2023
+# Process ID: 8964
+# Current directory: C:/Users/DAMIAN/Desktop/Facultate AC/An 2/An2 Sem1/ED/Proiect2/Binar-Gray/Binar-Gray.runs/synth_1
+# Command line: vivado.exe -log tutorial.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tutorial.tcl
+# Log file: C:/Users/DAMIAN/Desktop/Facultate AC/An 2/An2 Sem1/ED/Proiect2/Binar-Gray/Binar-Gray.runs/synth_1/tutorial.vds
+# Journal file: C:/Users/DAMIAN/Desktop/Facultate AC/An 2/An2 Sem1/ED/Proiect2/Binar-Gray/Binar-Gray.runs/synth_1\vivado.jou
+# Running On: DESKTOP-6MV1FO2, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 8467 MB
+#-----------------------------------------------------------
+source tutorial.tcl -notrace
