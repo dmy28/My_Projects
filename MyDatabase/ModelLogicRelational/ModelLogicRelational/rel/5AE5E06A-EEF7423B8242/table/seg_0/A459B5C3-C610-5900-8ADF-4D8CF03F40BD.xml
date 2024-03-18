@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A459B5C3-C610-5900-8ADF-4D8CF03F40BD" name="Actori">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>ED6E0796-4799-F2F7-BDBC-C6C46C8AFDB6</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_actor" id="1CBAD03F-2156-478E-5AF6-1C91322794A8">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:27:44 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>25000</autoIncrementStartWith>
+<autoIncrementIncrementBy>2</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume" id="66E145A5-C366-14BD-5B44-C749C118DD65">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:27:44 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Actori_Nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prenume" id="A2F1E508-F1B5-7035-6A52-5CA18D545F7A">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:27:44 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Actori_prenume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(prenume) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27E8B118-BFD6-3183-5932-F21CB5A55110" name="Actori_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:27:44 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1CBAD03F-2156-478E-5AF6-1C91322794A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

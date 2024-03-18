@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DD8694E-A164-E886-4066-178B63BB17BA" containerWithKeyObject="891DA41A-B076-B80C-22A9-956C8DFA8C0F" localFKIndex="F351B17F-89AC-EA58-1684-EED0CF2DF05A" name="Spectacole-Actori_Actori_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:31 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<referredTableLongName>Actori</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A459B5C3-C610-5900-8ADF-4D8CF03F40BD</referredTableID>
+<keyObject>27E8B118-BFD6-3183-5932-F21CB5A55110</keyObject>
+<referredKeyID>27E8B118-BFD6-3183-5932-F21CB5A55110</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_actor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

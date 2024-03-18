@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Spectacole-Actori_Actori_FK" directorySegmentName="seg_0" id="A36292BF-090A-2762-7072-CDB1EFDA340C">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>5DD8694E-A164-E886-4066-178B63BB17BA</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<sourcePk>CB5E8B0D-B7AF-5A9E-EFBF-2D3D0BC43DC7</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>joaca in </nameOnSource>
+<nameOnTarget>au</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED6E0796-4799-F2F7-BDBC-C6C46C8AFDB6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CCD3DC94-C606-6979-19DB-D846B1E602D0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

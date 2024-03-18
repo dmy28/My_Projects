@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9348E0EB-5205-65DC-B23E-215730644191" name="Comenzi">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>CA8FBBC9-BAB5-BF77-7E76-F2C9D9C8A94E</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_comanda" id="89400DFB-CC1A-AFB6-9D6A-FDBA718290B8">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:25:00 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>2000</autoIncrementStartWith>
+<autoIncrementIncrementBy>4</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_client" id="E913E7F5-6260-4AFA-B36E-DD4D093BBB2F">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:26:41 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C890F2BC-BEB1-4B85-4851-AED0750C2882" referredColumn="9CABC753-4956-98C7-805F-9F5BB378C284"/>
+</associations>
+</Column>
+<Column name="ID_plata" id="8ED6DF23-591F-6174-8F8D-9CCFF236E4C0">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<generatorID>824C7389-12E2-2877-20EC-D04FF3B7E3A0</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="094455EF-C69A-7EE4-7616-F0FB157FA9E2" referredColumn="608B6A53-874F-712D-2E1B-EC25934E0342"/>
+</associations>
+</Column>
+<Column name="ID_rezervare" id="AE8C6D17-8948-1289-3094-E499B1556008">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<generatorID>2A59DF12-41C9-6D6B-F63A-2BDBABCD3660</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1110D0DD-861D-DEA8-B0CC-0C5ABB597E08" referredColumn="798D8A97-9233-C67F-FB5D-54FFC61CDBC0"/>
+</associations>
+</Column>
+<Column name="Data_comanda" id="DE8D912C-3FB3-19BF-8B44-B2E3848951B2">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:25:00 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D79A11EF-7A43-6D58-347E-D83D6ECE0067" name="Comenzi_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:25:00 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89400DFB-CC1A-AFB6-9D6A-FDBA718290B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="761AA652-8A6D-1F95-3BB1-D8A5E825DA43" name="Comenzi__UN">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 18:16:23 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E913E7F5-6260-4AFA-B36E-DD4D093BBB2F"/>
+<colUsage columnID="8ED6DF23-591F-6174-8F8D-9CCFF236E4C0"/>
+<colUsage columnID="AE8C6D17-8948-1289-3094-E499B1556008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D45EA327-9914-3A01-18C2-2EC9852614FF" name="Comenzi__IDX">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7E9E7869-2FA2-44F2-EA14-7D0258719B5A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8ED6DF23-591F-6174-8F8D-9CCFF236E4C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B9B47A4-6706-BBAF-6AAE-C909FC71C648" name="Comenzi__IDXv1">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>FBB1236D-71C7-5292-A7A7-83DB0F1F0C6A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AE8C6D17-8948-1289-3094-E499B1556008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B742ABE-810F-33D3-93E0-82F24373EEEF" name="Comenzi_Client_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:26:41 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E913E7F5-6260-4AFA-B36E-DD4D093BBB2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AAFF1601-ECB3-1406-63D0-27058D74CDED" name="Comenzi_Plata_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<generatorID>7E9E7869-2FA2-44F2-EA14-7D0258719B5A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8ED6DF23-591F-6174-8F8D-9CCFF236E4C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E75DC44E-36BF-808A-AD7E-4BF4E7D61D38" name="Comenzi_Rezervari_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<generatorID>FBB1236D-71C7-5292-A7A7-83DB0F1F0C6A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE8C6D17-8948-1289-3094-E499B1556008"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

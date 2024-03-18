@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1110D0DD-861D-DEA8-B0CC-0C5ABB597E08" containerWithKeyObject="9348E0EB-5205-65DC-B23E-215730644191" localFKIndex="E75DC44E-36BF-808A-AD7E-4BF4E7D61D38" name="Comenzi_Rezervari_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<generatorID>FBB1236D-71C7-5292-A7A7-83DB0F1F0C6A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<referredTableLongName>Rezervari</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>643AB36E-4B10-325E-B6B8-DFCDF1154B81</referredTableID>
+<keyObject>FF2A243B-2F77-4776-8959-039AFE52F746</keyObject>
+<referredKeyID>FF2A243B-2F77-4776-8959-039AFE52F746</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_rezervare</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

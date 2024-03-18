@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="B05FBDED-03B8-D8D7-C5F2-D537F932AAD1">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:20:21 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86298851-AAAC-A28A-D358-77CEB2B3F57E" name="Client">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>38792532-4386-2DEB-258B-891B408F890A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_client" id="9CABC753-4956-98C7-805F-9F5BB378C284">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>1200</autoIncrementStartWith>
+<autoIncrementIncrementBy>3</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume" id="B0EEA612-6F65-AB1D-D28E-B4D47DFDD8DA">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Client_nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prenume" id="D9BA7653-842C-1FD3-C596-635988A26A33">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Client_prenume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(prenume) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="6431DF02-87D7-726C-5548-DA38DCC259D6">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:23:39 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Client_adresa_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(adresa) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="1EF22D7E-FB28-8CF7-9DAB-5DA6ABDB0453">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:24:10 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Client_email_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2-4}&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefon" id="C03774CF-4119-3AE7-B5F0-2B856E754510">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:24:32 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Client_telefon_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(telefon) = 10 and telefonl not like &apos;%[^0-9]%&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A68F5827-D599-1A26-2986-25875AFED4BE" name="Client_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CABC753-4956-98C7-805F-9F5BB378C284"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F38CC48-BE79-8D22-932E-08251B00635A" name="Client__UN">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 18:13:20 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1EF22D7E-FB28-8CF7-9DAB-5DA6ABDB0453"/>
+<colUsage columnID="C03774CF-4119-3AE7-B5F0-2B856E754510"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

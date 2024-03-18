@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Locuri_Rezervari_FK" directorySegmentName="seg_0" id="CA47BE1A-6A3E-BA48-D6BB-10DBD29E676E">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:47:31 UTC</createdTime>
+<generatorID>8A1A47AB-ADA2-248A-3876-8BF85AFFF87A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<sourcePk>27310A0A-5D1B-B13A-016B-AA061F40AAC2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contin</nameOnSource>
+<nameOnTarget>se afla in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5A4C0C3-DBE1-86ED-1F69-B7F9333F6A86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>877F432D-0513-27CA-85C4-37E229776EE8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

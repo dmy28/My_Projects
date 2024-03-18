@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F278A097-61A6-8F7C-5669-88AE1EE7830C">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:20:20 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

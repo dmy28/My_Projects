@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="891DA41A-B076-B80C-22A9-956C8DFA8C0F" name="Spectacole-Actori">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>CCD3DC94-C606-6979-19DB-D846B1E602D0</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<ordsAlias>spectacole1actori</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_spectacol" id="C5F3EBA3-A302-49A4-8725-0961AF63AF16">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09C5AD1D-2CE7-D0EB-6249-A3A52629E3D3" referredColumn="4392CE86-35B2-D301-CAC0-8741CFEE119B"/>
+</associations>
+</Column>
+<Column name="ID_actor" id="83F78436-AD32-ECF7-E6A0-287541618E7F">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:31 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DD8694E-A164-E886-4066-178B63BB17BA" referredColumn="1CBAD03F-2156-478E-5AF6-1C91322794A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="455DE9BB-582B-AA16-7038-F9E5B52C5C2B" name="Spectacole-Actori_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:35:16 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5F3EBA3-A302-49A4-8725-0961AF63AF16"/>
+<colUsage columnID="83F78436-AD32-ECF7-E6A0-287541618E7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F85A5F8-D36E-0354-AB03-6680A1B383CB" name="Spectacole-Actori_Spect_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5F3EBA3-A302-49A4-8725-0961AF63AF16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F351B17F-89AC-EA58-1684-EED0CF2DF05A" name="Spectacole-Actori_Actori_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:31 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83F78436-AD32-ECF7-E6A0-287541618E7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

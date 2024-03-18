@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="094455EF-C69A-7EE4-7616-F0FB157FA9E2" containerWithKeyObject="9348E0EB-5205-65DC-B23E-215730644191" localFKIndex="AAFF1601-ECB3-1406-63D0-27058D74CDED" name="Comenzi_Plata_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:27 UTC</createdTime>
+<generatorID>7E9E7869-2FA2-44F2-EA14-7D0258719B5A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<referredTableLongName>Plata</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3ACCF5A9-1238-5A38-0FF2-75765CA9A727</referredTableID>
+<keyObject>A82FA098-21E5-1950-7B40-97DB9AB9BBA5</keyObject>
+<referredKeyID>A82FA098-21E5-1950-7B40-97DB9AB9BBA5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_plata</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

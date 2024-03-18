@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ModelLogicRelational" id="14A3FD7B-948E-1A66-198C-05925256F46D" version="3.5">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:20:20 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>14A3FD7B-948E-1A66-198C-05925256F46D</designId>
+</OSDM_Design>

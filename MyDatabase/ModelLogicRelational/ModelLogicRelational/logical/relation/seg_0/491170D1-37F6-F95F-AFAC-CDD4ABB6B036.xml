@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Rezervari_Spectacole_FK" directorySegmentName="seg_0" id="491170D1-37F6-F95F-AFAC-CDD4ABB6B036">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>E826D216-DBA9-ADA1-A8C4-71E46ED91474</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<sourcePk>937C2D74-61BA-64C1-1CF2-319DC4051F14</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contin</nameOnSource>
+<nameOnTarget>ofera</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7C890106-3AD9-4E1A-3A66-94766352D38A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B5A4C0C3-DBE1-86ED-1F69-B7F9333F6A86</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

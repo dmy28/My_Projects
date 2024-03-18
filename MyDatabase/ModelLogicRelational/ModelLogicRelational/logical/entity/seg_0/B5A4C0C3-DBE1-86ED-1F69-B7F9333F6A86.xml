@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5A4C0C3-DBE1-86ED-1F69-B7F9333F6A86" name="Rezervari">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:21:12 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID rezervare" id="A3674382-045D-6A18-7F0E-29CA23C10A77">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>798D8A97-9233-C67F-FB5D-54FFC61CDBC0</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID spectacol" id="7773B14D-1BE6-110D-CEDE-8CC6855E9EA7">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>491170D1-37F6-F95F-AFAC-CDD4ABB6B036</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<referedAttribute>C1DFCB68-644E-8825-4F82-D69753168466</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data rezervare" id="797A79BE-4F89-6137-4348-9368BEC443C9">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>68940A5B-96D3-990E-7F08-022829CAE10E</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27310A0A-5D1B-B13A-016B-AA061F40AAC2" name="Rezervari PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>FF2A243B-2F77-4776-8959-039AFE52F746</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A3674382-045D-6A18-7F0E-29CA23C10A77</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

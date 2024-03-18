@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E826D216-DBA9-ADA1-A8C4-71E46ED91474" containerWithKeyObject="643AB36E-4B10-325E-B6B8-DFCDF1154B81" localFKIndex="2556020D-5C07-49EF-BDB8-26879EF529F9" name="Rezervari_Spectacole_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:33:29 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<referredTableLongName>Spectacole</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96902E24-C139-89FC-21E8-FD19601FA6A7</referredTableID>
+<keyObject>E0412794-0BE6-DD75-9C02-C4E7CC3DDF6A</keyObject>
+<referredKeyID>E0412794-0BE6-DD75-9C02-C4E7CC3DDF6A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_spectacol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

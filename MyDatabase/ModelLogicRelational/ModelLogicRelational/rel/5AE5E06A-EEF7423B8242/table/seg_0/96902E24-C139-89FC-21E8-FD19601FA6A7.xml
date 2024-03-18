@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="96902E24-C139-89FC-21E8-FD19601FA6A7" name="Spectacole">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>7C890106-3AD9-4E1A-3A66-94766352D38A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_spectacol" id="4392CE86-35B2-D301-CAC0-8741CFEE119B">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:28:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>9000</autoIncrementStartWith>
+<autoIncrementIncrementBy>5</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip_spectacol" id="6B18914C-B016-44CE-E163-9C8180D64628">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:28:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Spectacole_tip_spectacol_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="tip_spectacol in (&apos;Opera&apos;, &apos;Balet&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nume" id="C5067CAD-1EE0-0094-5A05-4A3017EAA758">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:28:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data_ora" id="6C9766B0-EE19-560E-0F97-62B5A1BEDC36">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:28:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Spectacole_data_ora_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0412794-0BE6-DD75-9C02-C4E7CC3DDF6A" name="Spectacole_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:28:46 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4392CE86-35B2-D301-CAC0-8741CFEE119B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

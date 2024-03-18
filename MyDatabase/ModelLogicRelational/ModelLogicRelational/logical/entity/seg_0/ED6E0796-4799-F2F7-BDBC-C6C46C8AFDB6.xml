@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED6E0796-4799-F2F7-BDBC-C6C46C8AFDB6" name="Actori">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:21:51 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID actor" id="25A80B42-EC2A-559E-5502-65245FD26CF2">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>1CBAD03F-2156-478E-5AF6-1C91322794A8</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume" id="853A434D-1D39-36EC-CDEF-44212A848742">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>66E145A5-C366-14BD-5B44-C749C118DD65</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<constraintName>Actori_Nume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(nume) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prenume" id="3518B20A-CEC3-598D-582D-CD5D8CDC37AF">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>A2F1E508-F1B5-7035-6A52-5CA18D545F7A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<constraintName>Actori_prenume_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="length(prenume) &gt; 1"/>
+</checkConstraint>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB5E8B0D-B7AF-5A9E-EFBF-2D3D0BC43DC7" name="Actori PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>27E8B118-BFD6-3183-5932-F21CB5A55110</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25A80B42-EC2A-559E-5502-65245FD26CF2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

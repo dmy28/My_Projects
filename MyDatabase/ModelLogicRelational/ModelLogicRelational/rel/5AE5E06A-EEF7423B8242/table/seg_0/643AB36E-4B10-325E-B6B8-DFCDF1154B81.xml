@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="643AB36E-4B10-325E-B6B8-DFCDF1154B81" name="Rezervari">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>B5A4C0C3-DBE1-86ED-1F69-B7F9333F6A86</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_rezervare" id="798D8A97-9233-C67F-FB5D-54FFC61CDBC0">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:00 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>6000</autoIncrementStartWith>
+<autoIncrementIncrementBy>4</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_spectacol" id="B3920D7F-0675-8134-79F7-7B2C18C67DDC">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:33:29 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E826D216-DBA9-ADA1-A8C4-71E46ED91474" referredColumn="4392CE86-35B2-D301-CAC0-8741CFEE119B"/>
+</associations>
+</Column>
+<Column name="Data_rezervare" id="68940A5B-96D3-990E-7F08-022829CAE10E">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:00 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF2A243B-2F77-4776-8959-039AFE52F746" name="Rezervari_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:32:00 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="798D8A97-9233-C67F-FB5D-54FFC61CDBC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2556020D-5C07-49EF-BDB8-26879EF529F9" name="Rezervari_Spectacole_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:33:29 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3920D7F-0675-8134-79F7-7B2C18C67DDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

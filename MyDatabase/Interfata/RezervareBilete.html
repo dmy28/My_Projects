@@ -1,0 +1,274 @@
+<DOCTYPE html>
+<html>
+    <title> SPECTACOLE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <script src="functii_cos.js" async></script>
+    <style>
+        body, html {height: 100%}
+        body,h1,h2,h3,h4,h5,h6 {font-family: "Animatic SC", sans-serif}
+        .menu {display:none}
+        .bgimg {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url("opera.jpg");
+            min-height: 90%;
+        }
+    </style>
+
+    <!-- Bara Meniu-->
+    <body>
+        <div class="top hide-small">
+            <div class="bar xlarge black opacity hover-opacity-off" id="myNavbar">
+                <a href="#" class="bar-item button">HOME</a>
+                <a href="#menu" class="bar-item button">SPECTACOLE</a>
+                <a href="#cart" class="bar-item button">COS</a>
+                <a href="#myMap" class="bar-item button">CONTACT</a>
+            </div>
+        </div>
+
+
+    <!-- Titlu cu imagine-->
+    <header class="bgimg display-container grayscale-min" id="home">
+        <div class="display-bottomleft padding">
+          
+        </div>
+        <div class="display-middle center">
+            <span class="text-white hide-small" style="font-size:100px">SPECTACOLE</span>
+            <span class="text-white hide-large hide-medium" style="font-size:60px"><b>SPECTACOLE</b></span>
+            <p><a href="#menu" class="button xxlarge black">Selecție</a></p>
+        </div> 
+    </header>
+
+    <div class="conrainer black padding-64 xxlarge" id="menu">
+        <div id="alerts"></div>
+
+    
+        <!-- Meniu Spectacole-->
+        <div class="content">
+            <h1 class="center jumbo" style="margin-bottom: 40px">SPECTACOLE</h1>
+            <div class="row center border border-dark-grey">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'OPERA');" id="myLink">
+                    <div class="col tablink padding-large hover-red">OPERA</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'BALET');">
+                    <div class="col tablink padding-large hover-red">BALET</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'SCENĂ');">
+                    <div class="col tablink padding-large hover-red">LOCURI</div>
+                </a>
+                
+            </div>
+
+       
+            <div id="OPERA" class="menu padding white">
+                <div class="product">
+                                     
+                    <h1 class="productname"><b>TOSCA</b></h1>                 
+                    <p class="text-grey">Giacomo Puccini</p>
+                    <p class="text-grey">20 Ianuarie,  Ora: 19:30</p>
+                    <p class="price"> Preț: ~80 lei </p>
+                    <span class="btn1 right round addtocart">Adauga</span>                                 
+                    <hr>
+                </div>
+                
+            
+                      
+                <div class="product">
+                    <h1 class="productname"><b>CAVALLERIA RUSTICANA</b></h1>
+                    <p class="text-grey">Pietro Mascagni</p>
+                    <p class="text-grey">23 Ianuarie,  Ora: 17:30</p>
+                    <p class="price"> Preț: ~100 lei </p>
+                    <span class="btn1 right round addtocart">Adauga</span>
+                    <hr>
+                </div>
+
+                <div class="product">
+                    <h1 class="productname"><b>LE NOZZE DI FIGARO </b></h1>
+                    <p class="text-grey">Wolfgang Amadeus Mozart</p>
+                    <p class="text-grey">25 Ianuarie,  Ora: 18:00</p>
+                    <p class="price"> Preț: ~120 lei  </p>
+                    <span class="btn1 right round addtocart">Adauga</span>  
+                    <hr>
+                </div>
+                      
+                <div class="product">
+                    <h1 class="productname"><b>UN BALLO IN MASCHERA</b></h1>
+                    <p class="text-grey">Giuseppe Verdi</p>
+                    <p class="text-grey">31 Ianuarie,  Ora: 20:30</p>
+                    <p class="price"> Preț: ~90 lei </p>
+                    <span class="btn1 right round addtocart">Adauga</span>               
+                    <hr>
+                </div>
+
+                <div class="product">
+                    <h1 class="productname"><b>BĂRBIERUL DIN SEVILLA</b></h1>
+                    <p class="text-grey">Gioachino Rossini</p>
+                    <p class="text-grey">3 Februarie,  Ora: 17:00</p>
+                    <p class="price"> Preț: ~85 lei  </p>
+                    <span class="btn1 right round addtocart">Adauga</span>
+          
+                    <hr>
+                </div>
+     
+            </div> 
+            <div id="BALET" class="menu padding white">
+                <div class="product">
+                    <h1 class="productname"><b>SPĂRGĂTORUL DE NUCI</b></h1>
+                    <p class="text-grey">Piotr Ilici Ceaikovski</p>
+                    <p class="text-grey">12 Februarie,  Ora: 16:00</p>
+                    <p class="price"> Preț: ~130 lei </p>
+                    <span class="btn1 right round addtocart">Adauga</span>
+
+                    <hr>
+                </div>
+
+                <div class="product">
+                    <h1 class="productname"><b>DON QUIJOTE</b></h1>
+                    <p class="text-grey">Ludwig Minkus</p>
+                    <p class="text-grey">16 Februarie,  Ora: 20:00</p>
+                    <p class="price"> Preț: ~100 lei </p>
+                    <span class="btn1 right round addtocart">Adauga</span>
+                    <hr>
+                </div>
+
+                <div class="product">
+                    <h1 class="productname"><b>GISELLE</b></h1>
+                    <p class="text-grey">Adolphe Adam</p>
+                    <p class="text-grey">22 Februarie,  Ora: 18:30</p>
+                    <p class="price"> Preț: ~80 lei  </p>
+                    <span class="btn1 right round addtocart">Adauga</span>
+                         
+                    <hr>
+                </div>
+
+                <div class="product">
+                    <h1 class="productname"><b>LACUL LEBEDELOR</b></h1>
+                    <p class="text-grey">Piotr Ilici Ceaikovski</p>
+                    <p class="text-grey">28 Februarie,  Ora: 19:00</p>
+                    <p class="price"> Preț: ~150 lei  </p>
+                    <span class="btn1 right round addtocart">Adauga</span>
+                             
+                    <hr>
+                </div>
+
+                <div class="product">
+                    <h1 class="productname"><b>ROMEO ȘI JULIETA</b></h1>
+                    <p class="text-grey">Serghei Prokofiev</p>
+                    <p class="text-grey">8 Martie,  Ora: 18:30</p>
+                    <p class="price"> Preț: ~125 lei </p>
+                    <span class="btn1 right round addtocart">Adauga</span>         
+                    <hr>
+                </div>
+                
+            </div>
+
+            <div id="SCENĂ" class="menu padding white">
+                <img src="d:\Date hard\Facultate AC\An 3\An 3 Sem1\BD\Tema de casa\Interfata\locuriSala.jpg" alt="Descriere imagine" style="width: 100%; height: auto;">
+
+            </div>
+
+
+
+
+
+            <div class="cart-container" id="cart">
+                <h2>Coș</h2>
+                <table>
+                  <thead>
+                    <tr>
+                    <th><strong>Produs</strong></th>
+                    <th><strong>Pret</strong></th>
+                  </tr>
+                  </thead>
+                  <tbody id="carttable">
+                  </tbody>
+                </table>
+                <hr>
+                <table id="carttotals">
+                  <tr>
+                    <td><strong>Cantitate</strong></td>
+                    <td><strong>Total</strong></td>
+                  </tr>
+                  <tr>
+                    <td>x <span id="itemsquantity">0</span></td>
+                   
+                    <td><span id="total">0</span></td>
+                  </tr></table>
+      
+               <div class="details">
+                    <form id="myForm" action="procesare_formular.php" method="post">
+                        <label class="nume" style="font-size: medium;"><b>Nume</b></label>
+                        <input type="text" size="50" style="font-size: medium;" required>
+                        <br>
+                        <label class="prenume" style="font-size: medium;"><b>Prenume</b></label>
+                        <input type="text" size="47" style="font-size: medium;"required>
+                        <br>
+                        <label class="email" style="font-size: medium;"><b>Email</b></label>
+                        <input type="text" size="50" style="font-size: medium;" required>
+                        <br>
+                        <label class="locuri" style="font-size: medium;"><b>Locuri</b></label>
+                        <label class="locuri" style="font-size: medium;"><b> Rand-Numar</b></label>
+                        <input type="text" size="36" style="font-size: medium;" required>
+                        <br>
+                    </form>
+                </div>
+                <div class="cart-buttons">  
+                  <button id="emptycart">Golire Cos</button>
+                  <button id="checkout" onclick="submit()" value="Reset form">Comanda</button>
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+    </div>
+
+    <script>
+        function submitForm() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("alerts").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("POST", "procesare_formular.php", true);
+            xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            
+            // Modifică pentru a utiliza FormData
+            var formData = new FormData(document.getElementById("myForm"));
+            xhttp.send(formData);
+        }
+    </script>
+
+
+    <script>
+        function openMenu(evt, menuName) {
+            var i, x, tablinks;
+            x=document.getElementsByClassName("menu");
+            for(i=0;i<x.length;i++) {
+                x[i].style.display="none";
+            }
+            tablinks=document.getElementsByClassName("tablink");
+            for(i=0;i<x.length;i++) {
+                tablinks[i].className=tablinks[i].className.replace(" rgb", "");
+            }
+            document.getElementById(menuName).style.display="block";
+            evt.currentTag.firstElementChild.className+=" red";
+        }
+        document.getElementById("myLink").click();
+    </script>
+
+
+    <script>
+        function submit(){
+            document.getElementById("myForm").reset();
+        }  
+    </script>
+
+    </body>
+
+</html>

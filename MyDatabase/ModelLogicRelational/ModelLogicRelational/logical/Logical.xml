@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F88D6F83-2E4F-A270-3283-5A5D2E249631" mainViewID="05F9963A-58E4-2346-9D7C-2A4986C4AEEA">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:20:20 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Comenzi_Rezervari_FK" directorySegmentName="seg_0" id="FBB1236D-71C7-5292-A7A7-83DB0F1F0C6A">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:40:08 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<sourcePk>27310A0A-5D1B-B13A-016B-AA061F40AAC2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>este inclusa in</nameOnSource>
+<nameOnTarget>include</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B5A4C0C3-DBE1-86ED-1F69-B7F9333F6A86</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CA8FBBC9-BAB5-BF77-7E76-F2C9D9C8A94E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

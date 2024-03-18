@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20834409-CE6B-1E38-5EB4-D56ECF17C070" name="Locuri">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:22:18 UTC</createdTime>
+<generatorID>877F432D-0513-27CA-85C4-37E229776EE8</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_loc" id="535F88E9-8563-04D1-FFF4-80B38FF91AB6">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:30:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementStartWith>100</autoIncrementStartWith>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_rezervare" id="5B9B102F-7C7E-6FE4-702B-EA69FCDDFF1D">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:33:18 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A1A47AB-ADA2-248A-3876-8BF85AFFF87A" referredColumn="798D8A97-9233-C67F-FB5D-54FFC61CDBC0"/>
+</associations>
+</Column>
+<Column name="Rand" id="6751F882-FA0C-90A5-E5A8-ADF43770EC66">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:30:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Locuri_rand_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="rand between &apos;A&apos; and  &apos;N&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numar" id="0F59B82E-23A5-61FE-DAE0-A48622ADF056">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:30:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<constraintName>Locuri_numar_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="numar between 1 and 18"/>
+</checkConstraint>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>18</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="Disponibil" id="A53D5CDE-20A9-3C15-4681-47477C51912E">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:30:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA7E7572-51C4-0C28-3D76-CF3617AD9D18" name="Locuri_PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:30:17 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="535F88E9-8563-04D1-FFF4-80B38FF91AB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53756B8F-505A-9C77-9EC4-98BAA73D4F08" name="Locuri_Rezervari_FK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:33:18 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B9B102F-7C7E-6FE4-702B-EA69FCDDFF1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

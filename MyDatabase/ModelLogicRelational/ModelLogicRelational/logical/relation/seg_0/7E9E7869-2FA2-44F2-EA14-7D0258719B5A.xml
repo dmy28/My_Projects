@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Comenzi_Plata_FK" directorySegmentName="seg_0" id="7E9E7869-2FA2-44F2-EA14-7D0258719B5A">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:38:05 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<sourcePk>5FE683C4-25DC-DD8B-39D8-440047B19F33</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>apartine</nameOnSource>
+<nameOnTarget>are</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>15EF5EE7-3477-F860-E6B5-24D69ED58CAE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CA8FBBC9-BAB5-BF77-7E76-F2C9D9C8A94E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

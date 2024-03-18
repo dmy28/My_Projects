@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C890106-3AD9-4E1A-3A66-94766352D38A" name="Spectacole">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:21:28 UTC</createdTime>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID spectacol" id="C1DFCB68-644E-8825-4F82-D69753168466">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>4392CE86-35B2-D301-CAC0-8741CFEE119B</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tip spectacol" id="7F5FB916-AA30-FA90-1769-6A862E554F7A">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>6B18914C-B016-44CE-E163-9C8180D64628</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<constraintName>Spectacole_tip_spectacol_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="tip_spectacol in (&apos;Opera&apos;, &apos;Balet&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nume" id="FC1D4643-4B71-4ED1-03EA-F49F82105E2D">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>C5067CAD-1EE0-0094-5A05-4A3017EAA758</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data ora" id="046BF961-F350-C7E7-094E-9A02F89E597D">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>6C9766B0-EE19-560E-0F97-62B5A1BEDC36</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="true"/>
+</engineerTo>
+<constraintName>Spectacole_data_ora_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="data_ora &gt; SYSDATE"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="937C2D74-61BA-64C1-1CF2-319DC4051F14" name="Spectacole PK">
+<createdBy>Damian SSD</createdBy>
+<createdTime>2024-01-04 15:36:12 UTC</createdTime>
+<generatorID>E0412794-0BE6-DD75-9C02-C4E7CC3DDF6A</generatorID>
+<ownerDesignName>ModelLogicRelational</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5AE5E06A-6787-AF75-BCEF-EEF7423B8242" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C1DFCB68-644E-8825-4F82-D69753168466</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
